@@ -1,0 +1,159 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf400
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 HelveticaNeue;\f2\fnil\fcharset0 Menlo-Regular;
+}
+{\colortbl;\red255\green255\blue255;\red38\green38\blue38;\red255\green255\blue255;\red17\green137\blue135;
+\red245\green245\blue247;\red37\green91\blue141;\red65\green141\blue196;\red200\green51\blue63;\red135\green135\blue135;
+}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 1. Download Boostrap from the Git project. \
+2. Get 3 folders from it: fonts, js, less. Put 'fonts' into _folder/fonts. Put js and less into _folder/components/js, less\
+\
+
+\b Create Project Structure:
+\b0 \
+_folder/components/js, less\
+_folder/js\
+_folder/css\
+_folder/fonts\
+_images\
+index.php\
+\
+- get rid of "tests" folder in components/js\
+- components/less and components/js have a lot of files that we will need to compress and put them into the project's actual folders: _folder/css and _folder/js\
+\
+3. Download jQuery\
+\
+rename it to jquery.js and put it into -/components/js\
+\
+4. Process LESS files\
+\
+Use code kit. \
+\
+
+\b CodeKit
+\b0 \
+\
+1. Preferences: \
+Refresh Projects: never\
+turn off safari\
+\
+2. drag and drop your project folder into Codekit\
+\
+3. choose 'bootstrap.less' file and change the path to output it into the _/css, output style="compress"\
+This will combine all bootstrap's css files into one\
+\
+4. create an empty 
+\fs22 _
+\fs24 mystyles.less file in the components/less/\
+this is where we will be adding our own styles to overwrite bootstrap.less\
+Also, output it into a _/css/mystyles.css using Codekit compression. \
+\
+We will be using _mystyles.less to make changes and they will be automatically reflected in the compressed my styles.css\
+\
+5. Compress .js files\
+\
+We don't want to compile each .js file separately. We need to bring all of these files into a single one. \
+\
+Go to _/components/js, in it create _boostrap.js - this is where we gonna bring all out .js files into. \
+\
+Type inside of _boostrap.js:\
+\
+// @codekit-prepend "jquery.js"\
+// @codekit-prepend "affix.js"\
+// @codekit-prepend "transition.js"\
+// @codekit-prepend "tooltip.js"\
+// @codekit-prepend "alert.js"\
+// @codekit-prepend "button.js"\
+// @codekit-prepend "carousel.js"\
+// @codekit-prepend "collapse.js"\
+// @codekit-prepend "dropdown.js"\
+// @codekit-prepend "modal.js"\
+// @codekit-prepend "popover.js"\
+// @codekit-prepend "scrollspy.js"\
+// @codekit-prepend "tab.js"\
+\
+And while you are in the components/js\
+\
+create _myscript.js for your own scripts that will be overwriting or adding to the bootstrap's. \
+\
+Now we need to compile both _boostrap.js and _myscript.js. They are currently in components/js\
+\
+In code kit, set the path to compile them into _/js. Remove _ from the names for this folder. Concatenate + Minify. Check syntax with nothing. \
+\
+6. Save Bootstrap and JS files into an HTML template and use GIT to save a brunch of our site. \
+\
+
+\b Get an HTML template: 
+\b0 \
+{\field{\*\fldinst{HYPERLINK "http://getbootstrap.com/getting-started/"}}{\fldrslt http://getbootstrap.com/getting-started/}}\
+\
+\pard\pardeftab720\sl400\sa200
+
+\f1\fs28 \cf2 \cb3 Copy the HTML below to begin working with a minimal Bootstrap document.\
+\pard\pardeftab720\sl360
+
+\f2\fs26 \cf4 \cb5 <!DOCTYPE html>\cf2 \
+\pard\pardeftab720\sl360
+\cf6 <html\cf2  \cf7 lang=\cf8 "en"\cf6 >\cf2 \
+  \cf6 <head>\cf2 \
+    \cf6 <meta\cf2  \cf7 charset=\cf8 "utf-8"\cf6 >\cf2 \
+    \cf6 <meta\cf2  \cf7 http-equiv=\cf8 "X-UA-Compatible"\cf2  \cf7 content=\cf8 "IE=edge"\cf6 >\cf2 \
+    \cf6 <meta\cf2  \cf7 name=\cf8 "viewport"\cf2  \cf7 content=\cf8 "width=device-width, initial-scale=1"\cf6 >\cf2 \
+    \cf6 <title>\cf2 Bootstrap 101 Template\cf6 </title>\cf2 \
+\
+    \cf9 <!-- Bootstrap -->\cf2 \
+    \cf6 <link\cf2  \cf7 href=\cf8 "css/bootstrap.min.css"\cf2  \cf7 rel=\cf8 "stylesheet"\cf6 >\cf2 \
+\
+    \cf9 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->\cf2 \
+    \cf9 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->\cf2 \
+    \cf9 <!--[if lt IE 9]>\cf2 \
+\pard\pardeftab720\sl360
+\cf9       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>\cf2 \
+\cf9       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>\cf2 \
+\cf9     <![endif]-->\cf2 \
+  \cf6 </head>\cf2 \
+  \cf6 <body>\cf2 \
+    \cf6 <h1>\cf2 Hello, world!\cf6 </h1>\cf2 \
+\
+    \cf9 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->\cf2 \
+    \cf6 <script \cf7 src=\cf8 "https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"\cf6 ></script>\cf2 \
+    \cf9 <!-- Include all compiled plugins (below), or include individual files as needed -->\cf2 \
+    \cf6 <script \cf7 src=\cf8 "js/bootstrap.min.js"\cf6 ></script>\cf2 \
+  \cf6 </body>\cf2 \
+\pard\pardeftab720\sl360
+\cf6 </html>\cf2 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 \cb1 \
+Insert it into your index.php and fix the links. Also get rid of some stuff you don't need: jQuery link and respond.js so it looks like this: \
+\
+<!DOCTYPE html>\
+<html lang="en">\
+  <head>\
+    <meta charset="utf-8">\
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">\
+    <meta name="viewport" content="width=device-width, initial-scale=1">\
+    <title>Bootstrap 101 Template</title>\
+    <link href="_/css/bootstrap.css" rel="stylesheet">\
+	<link href="_/css/mystyles.css" rel="stylesheet">\
+  </head>\
+  <body>\
+    <h1>Hello, world!</h1>\
+    <!-- Include all compiled plugins (below), or include individual files as needed -->\
+    <script src="_/js/bootstrap.js"></script>\
+    <script src="_/js/myscript.js"></script>\
+  </body>\
+</html>\
+\
+
+\b Type in localhost in your browser, it should show "Hello World!"
+\b0 \
+\
+\
+\
+\
+\
+\
+}
