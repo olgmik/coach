@@ -4,13 +4,19 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>Coach Style Guide - Home Page</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic|Libre+Baskerville:400,700|Radley:400,400italic|Lusitana:400,700' rel='stylesheet' type='text/css'>
     <link href="_/css/bootstrap.css" rel="stylesheet">
 	<link href="_/css/mystyles.css" rel="stylesheet">
   </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <body id="home">
+    <section class="main-container">
+      <div class="content row">
+        <section class="main col col-lg-12">
+          <?php include "_/components/php/header.php"; ?>
+        </section><!-- main -->
+      </div>
+    </section><!-- main-container -->
     <script src="_/js/bootstrap.js"></script>
     <script src="_/js/myscript.js"></script>
   </body>
