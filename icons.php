@@ -9,8 +9,13 @@
     <link href="_/css/bootstrap.css" rel="stylesheet">
 	<link href="_/css/mystyles.css" rel="stylesheet">
   </head>
-  <body id="home">
+  <body id="icons">
     <section class="main-container">
+      <div class="content row">
+        <section class="main col col-lg-12" id="header">
+          <?php include "_/components/php/header.php"; ?>
+        </section><!-- main -->
+      </div>
       <div class="content row">
         <section class="main col col-lg-10">
           <h2>Main Content</h2>
@@ -28,7 +33,7 @@
             Ea mel nonumy graecis tractatos. Sit posse fabulas cu. Sit sale erroribus id, cu habemus forensibus pro, eum te percipit voluptatibus. Pro ea meis graeci utroque, te eam scripta abhorreant. Eum euripidis honestatis interpretaris in, ne deleniti electram has. Aeque partem inciderint ea eum, ea mei aliquam cotidieque.
           </p>
         </section><!-- sidebar -->
-      </div>
+      </div><!-- content row -->
     </section><!-- main-container -->
     <script src="_/js/bootstrap.js"></script>
     <script src="_/js/myscript.js"></script>

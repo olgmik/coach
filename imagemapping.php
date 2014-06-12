@@ -9,8 +9,13 @@
     <link href="_/css/bootstrap.css" rel="stylesheet">
 	<link href="_/css/mystyles.css" rel="stylesheet">
   </head>
-  <body id="home">
+  <body id="imagemapping">
     <section class="main-container">
+      <div class="content row">
+        <section class="main col col-lg-12" id="header">
+          <?php include "_/components/php/header.php"; ?>
+        </section><!-- main -->
+      </div>
       <div class="content row">
         <section class="main col col-lg-10">
           <h2>Main Content</h2>

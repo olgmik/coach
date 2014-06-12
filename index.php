@@ -12,8 +12,33 @@
   <body id="home">
     <section class="main-container">
       <div class="content row">
-        <section class="main col col-lg-12">
+        <section class="main col col-lg-12" id="header">
           <?php include "_/components/php/header.php"; ?>
+        </section><!-- main -->
+      </div>
+      <div class="content row">
+        <section class="main col col-lg-6">
+          <h2>WELCOME!</h2>
+          <p>
+            Welcome to Coach Digital Style Guide. 
+            Here you will find everything you need to build a web page or any digital experience the Coach style from fonts and colors to page templates and animation. 
+          </p>
+      </section><!-- main -->
+      <section class="main col col-lg-4">
+
+      </section>
+      <section class="sidebar col col-lg-2">
+        <h2>Curious Facts</h2>
+        <p>
+          Lorem ipsum dolor sit amet, in tibique sapientem vulputate eum. Laoreet indoctum principes mea et, vis nusquam volutpat dissentiunt an. Quas animal dolorum no vix, qui an unum splendide incorrupte. Et stet vitae consequat pro, ei ubique nostrum comprehensam sed. Eam erat choro at, graece oporteat no vim, harum copiosae his at. Te nec viris impetus iudicabit, sed in justo dicta doctus, nam ea novum vocibus dolores.
+          Sanctus sadipscing qui eu, quem alterum patrioque ea vim. Appareat scribentur sit id, nec ad saepe repudiare, eu tritani nostrum expetenda sed. No sed veri autem, per te hinc viderer. Ius virtute fuisset antiopam ut.
+          Ea mel nonumy graecis tractatos. Sit posse fabulas cu. Sit sale erroribus id, cu habemus forensibus pro, eum te percipit voluptatibus. Pro ea meis graeci utroque, te eam scripta abhorreant. Eum euripidis honestatis interpretaris in, ne deleniti electram has. Aeque partem inciderint ea eum, ea mei aliquam cotidieque.
+        </p>
+      </section><!-- sidebar -->
+      </div>
+      <div class="content row">
+        <section class="main col col-lg-12" id="footer">
+          <?php include "_/components/php/footer.php"; ?>
         </section><!-- main -->
       </div>
     </section><!-- main-container -->
