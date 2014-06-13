@@ -2,6 +2,15 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "16921",
 "files": {
+	"\/_\/components\/css\/theme.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_\/components\/css\/theme.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_\/components\/js\/_bootstrap.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -1587,11 +1596,38 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/_\/components\/php\/article-intro.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_\/components\/php\/article-intro.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_\/components\/php\/footer.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_\/components\/php\/footer.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_\/components\/php\/header.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_\/components\/php\/header.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_\/components\/php\/snippet-carousel.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_\/components\/php\/snippet-carousel.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1771,6 +1807,83 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/carousel\/rsArrowLg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3443,
+		"inputAbbreviatedPath": "\/images\/carousel\/rsArrowLg.png",
+		"outputAbbreviatedPath": "\/images\/carousel\/rsArrowLg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/carousel\/slide01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 179289,
+		"inputAbbreviatedPath": "\/images\/carousel\/slide01.jpg",
+		"outputAbbreviatedPath": "\/images\/carousel\/slide01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/carousel\/slide02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 206967,
+		"inputAbbreviatedPath": "\/images\/carousel\/slide02.jpg",
+		"outputAbbreviatedPath": "\/images\/carousel\/slide02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/carousel\/slide03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 189340,
+		"inputAbbreviatedPath": "\/images\/carousel\/slide03.jpg",
+		"outputAbbreviatedPath": "\/images\/carousel\/slide03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/carousel\/slide04.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 211861,
+		"inputAbbreviatedPath": "\/images\/carousel\/slide04.jpg",
+		"outputAbbreviatedPath": "\/images\/carousel\/slide04.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/carousel\/slider-grey-black-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5307,
+		"inputAbbreviatedPath": "\/images\/carousel\/slider-grey-black-1.png",
+		"outputAbbreviatedPath": "\/images\/carousel\/slider-grey-black-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/carousel\/slider-grey-black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4280,
+		"inputAbbreviatedPath": "\/images\/carousel\/slider-grey-black.png",
+		"outputAbbreviatedPath": "\/images\/carousel\/slider-grey-black.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/coach_styleguide.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1778,6 +1891,116 @@
 		"initialSize": 3720,
 		"inputAbbreviatedPath": "\/images\/coach_styleguide.png",
 		"outputAbbreviatedPath": "\/images\/coach_styleguide.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/font_images\/lato-black-18.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1394,
+		"inputAbbreviatedPath": "\/images\/font_images\/lato-black-18.png",
+		"outputAbbreviatedPath": "\/images\/font_images\/lato-black-18.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/font_images\/lato-black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1755,
+		"inputAbbreviatedPath": "\/images\/font_images\/lato-black.png",
+		"outputAbbreviatedPath": "\/images\/font_images\/lato-black.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/font_images\/lato-bold-14.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1226,
+		"inputAbbreviatedPath": "\/images\/font_images\/lato-bold-14.png",
+		"outputAbbreviatedPath": "\/images\/font_images\/lato-bold-14.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/font_images\/lato-bold-18.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1216,
+		"inputAbbreviatedPath": "\/images\/font_images\/lato-bold-18.png",
+		"outputAbbreviatedPath": "\/images\/font_images\/lato-bold-18.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/font_images\/lato-italic-12.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1257,
+		"inputAbbreviatedPath": "\/images\/font_images\/lato-italic-12.png",
+		"outputAbbreviatedPath": "\/images\/font_images\/lato-italic-12.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/font_images\/lato-reg-12.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1210,
+		"inputAbbreviatedPath": "\/images\/font_images\/lato-reg-12.png",
+		"outputAbbreviatedPath": "\/images\/font_images\/lato-reg-12.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/font_images\/lato-reg-18.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1438,
+		"inputAbbreviatedPath": "\/images\/font_images\/lato-reg-18.png",
+		"outputAbbreviatedPath": "\/images\/font_images\/lato-reg-18.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/font_images\/libre-48.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2877,
+		"inputAbbreviatedPath": "\/images\/font_images\/libre-48.png",
+		"outputAbbreviatedPath": "\/images\/font_images\/libre-48.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/font_images\/radely-18.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1396,
+		"inputAbbreviatedPath": "\/images\/font_images\/radely-18.png",
+		"outputAbbreviatedPath": "\/images\/font_images\/radely-18.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/font_images\/radely-36.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1748,
+		"inputAbbreviatedPath": "\/images\/font_images\/radely-36.png",
+		"outputAbbreviatedPath": "\/images\/font_images\/radely-36.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

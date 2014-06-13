@@ -34,6 +34,11 @@
           </p>
         </section><!-- sidebar -->
       </div><!-- content row -->
+      <div class="content row">
+        <section class="main col col-lg-12" id="footer">
+          <?php include "_/components/php/footer.php"; ?>
+        </section><!-- main -->
+      </div>
     </section><!-- main-container -->
     <script src="_/js/bootstrap.js"></script>
     <script src="_/js/myscript.js"></script>

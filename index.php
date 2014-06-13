@@ -18,11 +18,7 @@
       </div>
       <div class="content row">
         <section class="main col col-lg-6">
-          <h2>WELCOME!</h2>
-          <p>
-            Welcome to Coach Digital Style Guide. 
-            Here you will find everything you need to build a web page or any digital experience the Coach style from fonts and colors to page templates and animation. 
-          </p>
+          <?php include "_/components/php/article-intro.php"; ?>
       </section><!-- main -->
       <section class="main col col-lg-4">
 
