@@ -2005,6 +2005,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/icons\/icon_chat.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1015,
+		"inputAbbreviatedPath": "\/images\/icons\/icon_chat.png",
+		"outputAbbreviatedPath": "\/images\/icons\/icon_chat.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/nav-icons.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1693,
+		"inputAbbreviatedPath": "\/images\/icons\/nav-icons.png",
+		"outputAbbreviatedPath": "\/images\/icons\/nav-icons.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/pdp_sprite.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12106,
+		"inputAbbreviatedPath": "\/images\/icons\/pdp_sprite.png",
+		"outputAbbreviatedPath": "\/images\/icons\/pdp_sprite.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/pdp_sprite_original.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7518,
+		"inputAbbreviatedPath": "\/images\/icons\/pdp_sprite_original.png",
+		"outputAbbreviatedPath": "\/images\/icons\/pdp_sprite_original.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
