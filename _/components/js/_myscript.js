@@ -56,4 +56,14 @@ $(function(){
 	}
 	); // hover
 
+	$(':radio').change(
+	  function(){
+	    $('.choice').text( this.value + ' stars' );
+	  } 
+	); 
+
+	// <select> box in a form customization
+
+	$('.selectpicker').selectpicker();
+
 }); 

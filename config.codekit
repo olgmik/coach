@@ -2005,6 +2005,127 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/icons\/Close-X.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2105,
+		"inputAbbreviatedPath": "\/images\/icons\/Close-X.png",
+		"outputAbbreviatedPath": "\/images\/icons\/Close-X.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/icon-desktop-black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1287,
+		"inputAbbreviatedPath": "\/images\/icons\/icon-desktop-black.png",
+		"outputAbbreviatedPath": "\/images\/icons\/icon-desktop-black.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/icon-FB-black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1260,
+		"inputAbbreviatedPath": "\/images\/icons\/icon-FB-black.png",
+		"outputAbbreviatedPath": "\/images\/icons\/icon-FB-black.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/icon-gPlus-black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1467,
+		"inputAbbreviatedPath": "\/images\/icons\/icon-gPlus-black.png",
+		"outputAbbreviatedPath": "\/images\/icons\/icon-gPlus-black.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/icon-insagram-black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1362,
+		"inputAbbreviatedPath": "\/images\/icons\/icon-insagram-black.png",
+		"outputAbbreviatedPath": "\/images\/icons\/icon-insagram-black.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/icon-pdf-black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1312,
+		"inputAbbreviatedPath": "\/images\/icons\/icon-pdf-black.png",
+		"outputAbbreviatedPath": "\/images\/icons\/icon-pdf-black.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/icon-pintrest-black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1460,
+		"inputAbbreviatedPath": "\/images\/icons\/icon-pintrest-black.png",
+		"outputAbbreviatedPath": "\/images\/icons\/icon-pintrest-black.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/icon-share-black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1144,
+		"inputAbbreviatedPath": "\/images\/icons\/icon-share-black.png",
+		"outputAbbreviatedPath": "\/images\/icons\/icon-share-black.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/icon-tumblr-black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1230,
+		"inputAbbreviatedPath": "\/images\/icons\/icon-tumblr-black.png",
+		"outputAbbreviatedPath": "\/images\/icons\/icon-tumblr-black.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/icon-twitter-black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1207,
+		"inputAbbreviatedPath": "\/images\/icons\/icon-twitter-black.png",
+		"outputAbbreviatedPath": "\/images\/icons\/icon-twitter-black.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icons\/icon-youtube-black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1758,
+		"inputAbbreviatedPath": "\/images\/icons\/icon-youtube-black.png",
+		"outputAbbreviatedPath": "\/images\/icons\/icon-youtube-black.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/icons\/icon_chat.png": {
 		"fileType": 32768,
 		"ignore": 0,

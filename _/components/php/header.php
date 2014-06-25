@@ -10,7 +10,7 @@
 						</div>
 						<div class="col-lg-10">
 							<ul class="nav navbar-nav pull-right">
-								<li class="dropdown">
+								<li class="dropdown header">
 									<a href="index.php" class="dropdown-toggle" data-toggle="dropdown">Global GUI <span class="caret"></span></a>
 									<ul class="dropdown-menu" role="menu" aria-labeledby="dropdownMenu">
 										<li><a tabindex="-1" href="fonts.php">Fonts</a></li>
@@ -26,7 +26,7 @@
 										<li><a tabindex="-1" href="navigation.php">Navigation</a></li>
 									</ul>
 								</li>
-								<li class="dropdown">
+								<li class="dropdown header">
 									<a href="grid_templates.php" class="dropdown-toggle" data-toggle="dropdown">Page Templates <span class="caret"></span></a>
 									<ul class="dropdown-menu" role="menu" aria-labeledby="dropdownMenu">
 										<li><a tabindex="-1" href="grid.php">Grid</a></li>
@@ -36,7 +36,7 @@
 										<li><a tabindex="-1" href="landing_pages.php">Landing Pages</a></li>
 									</ul>
 								</li>
-								<li class="dropdown">
+								<li class="dropdown header">
 									<a href="interaction.php" class="dropdown-toggle" data-toggle="dropdown">Interaction <span class="caret"></span></a>
 									<ul class="dropdown-menu" role="menu" aria-labeledby="dropdownMenu">
 										<li><a tabindex="-1" href="carousel.php">Carousel</a></li>
@@ -45,8 +45,8 @@
 										<li><a tabindex="-1" href="imagemapping.php">Image Mapping</a></li>
 									</ul>
 								</li>
-								<li class="dropdown"><a href="international.php" class="dropdown-toggle" data-toggle="dropdown">International</a></li>
-								<li class="dropdown"><a href="factory.php" class="dropdown-toggle" data-toggle="dropdown">Factory</a></li>
+								<li class="dropdown header"><a href="international.php" class="dropdown-toggle" data-toggle="dropdown">International</a></li>
+								<li class="dropdown header"><a href="factory.php" class="dropdown-toggle" data-toggle="dropdown">Factory</a></li>
 							</ul>
 						</div><!-- col-lg-10 -->
 					</section><!-- navbar -->
