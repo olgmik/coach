@@ -66,4 +66,6 @@ $(function(){
 
 	$('.selectpicker').selectpicker();
 
+
+
 }); 

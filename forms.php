@@ -72,32 +72,18 @@
 
             <div class="horiz-rule-10"><!-- under-header rule -->
             </div>
-            
+
             <div class="content row table-row"><!-- table content row 1 -->
               <section class="col col-lg-3">
                 <form>
-                  <label for="search">SEC Filing Keyword Search</label>
+                  <label for="search">LABEL</label>
                   <input name="search" class="search" type="search">
-                  <div class="label-bottom"><a href="#">view search tips</a></div>
+                  <div class="label-bottom">EXAMPLE: LOREM IPSUM LOREM IPSUM</div>
                 </form>
-
-                <form>
-                  <label for="search">SEC Filing Keyword Search</label>
-                  <div class="input-group input-group-sm">
-                    
-                    <span class="input-group-btn">
-                      <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
-                    </span>
-                    
-                    <input name="search" class="search form-control" type="search">
-                    
-                  </div>
-                  <div class="label-bottom"><a href="#">view search tips</a></div>
-                </form>
-
+                <p class="margin-top-10"></p>
               </section>
               <section class="col col-lg-2">
-                <p>Lato label outside</p>
+                <p>Regular form field with a label and instructions</p>
               </section>
               <section class="col col-lg-5">
                 <p>/* DISABLING HTML5 FORM STYLING */</p>
@@ -121,6 +107,33 @@
                   font-size: 1.2em; 
                   line-height: 1em; 
                   padding: 0 2% 1px 2%;
+                }</p>
+                <p>.form-control {
+                  display: block;
+                  width: 250px;
+                  height: 30px;
+                  padding: 0 2% 1px;
+                  font-size: 12px;
+                  line-height: 30px;
+                  letter-spacing: 1px; 
+                  color: #545454;
+                  font-weight: 400; 
+                  text-transform: uppercase; 
+                  background-color: #fff;
+                  background-image: none;
+                  border: 1px solid #ccc;
+                  border-radius: 0;
+                  -webkit-box-shadow: none;
+                  box-shadow: none;
+                  -webkit-transition: none;
+                  -webkit-border-radius: 0px;
+                  transition: none;
+                  /*transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;*/
+                }</p>
+                <p>.form-control:focus {
+                  outline-style:none;
+                  box-shadow:none;
+                  border-color:#ccc;
                 }</p>
                 <p>label {
                   font-size: 1em;
@@ -154,9 +167,112 @@
                 <p>Semantic</p>
               </section>
             </div><!-- end of the table content row 1 -->
+            
+            <div class="content row table-row"><!-- table content row 2 -->
+              <section class="col col-lg-3">
+                <form>
+                  <label for="search">SEARCH BY KEYWORD</label>
+                  <div class="input-group input-group-sm">
+                    <input name="search" class="search form-control" type="search">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default search-field" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                    </span>
+                  </div>
+                  <div class="label-bottom"><a href="#">view search tips</a></div>
+                </form>
+              </section>
+              <section class="col col-lg-2">
+                <p>Search field with a label and a link to instructions. Uses Bootstrap's .input-group-btn for the icon. See HTML to the right.</p>
+              </section>
+              <section class="col col-lg-5">
+                <p>HTML</p>
+                <p>
+                  <?php $new = htmlspecialchars(
+                  "<form>
+                    <label for='search'>SEARCH BY KEYWORD</label>
+                    <div class='input-group input-group-sm'>
+                      <input name='search' class='search form-control' type='search'>
+                      <span class='input-group-btn'>
+                        <button class='btn btn-default search-field' type='button'><span class='glyphicon glyphicon-search'></span></button>
+                      </span>
+                    </div>
+                    <div class='label-bottom'><a href='#''>view search tips</a></div>
+                  </form>", ENT_QUOTES);
+                  echo $new; ?>
+                </p>
+                <p>CSS</p>
+                <p>
+                  input.search.form-control {
+                    -webkit-appearance: none;
+                    border-radius: 0;
+                    outline: none;
+                    vertical-align: middle;
+                    text-transform: none; 
+                    font-size: 1.2em; 
+                    line-height: 1em; 
+                    padding: 0 2% 1px 2%;
+                  }
+                </p>
+                <p>
+                  .btn-default span.glyphicon.glyphicon-search {
+                    color: #999999; 
+                  }
+                </p>
+                <p>
+                  .input-group-sm>.form-control, .input-group-sm>.input-group-addon, .input-group-sm>.input-group-btn>.btn {
+                    height: 30px;
+                    padding: 0;
+                    font-size: 12px;
+                    line-height: 30px;
+                    border-radius: 0;
+                  }
+                </p>
+                <p>
+                  .input-group .form-control {
+                    width: 230px; 
+                  }
+                </p>
+                <p>
+                  .input-group .search { 
+                    border-right: none; 
+                  }
+                </p>
+                <p>
+                  .input-group-btn {
+                    display: block; 
+                  }
+                </p>
+                <p>
+                  .btn.btn-default.search-field {
+                    width: 20px; 
+                    border-left-color: transparent;
+                    padding-right: 4px;  
+                  }
+                </p>
+                <p>
+                  .btn.btn-default.search-field:hover,.btn.btn-default.search-field:focus {
+                    background-color: transparent; 
+                    border-color: #cccccc; 
+                    border-left-color: transparent;
+                    outline: none; 
+                  }
+                </p>
+                <p>
+                    &:active,
+                    &.active {
+                      outline: 0;
+                      background-image: none;
+                      //.box-shadow(inset 0 3px 5px rgba(0,0,0,.125));
+                    }
+                </p>
 
+              </section>
+              <section class="col col-lg-2">
+                <p>This search field has a button which is a "search" icon and it can do a </p>
+              </section>
+            </div><!-- end of the table content row 2 -->   
 
-            <div class="content row table-row margin-top-10"><!-- table content row 4 -->
+            <div class="content row table-row margin-top-10"><!-- table content row 3 -->
               <section class="col col-lg-3">       
                 <label for="id_select">your options</label>
                 <select id="id_select" class="selectpicker" multiple data-live-search="false" >
@@ -170,9 +286,10 @@
               </section>
 
               <section class="col col-lg-2">
-                <p>Bootstrap SELECT form</p>
+                <p>Bootstrap's SELECT</p>
               </section>
               <section class="col col-lg-5">
+                <p>HTML</p>
                 <p>To customize Bootstrap's SELECT picker(http://getbootstrap.com/css/#forms) in a form one must use a jQuery plugin. 
                 The plugin used here is called bootstrap-select.js. </p>
                 <p><?php $new = htmlspecialchars(
@@ -188,12 +305,128 @@
                   <?php $new = htmlspecialchars("<script type='text/javascript' src='_/components/js/bootstrap-select.js'></script> ", ENT_QUOTES);
                   echo $new; 
                   ?> to your page and $('.selectpicker').selectpicker(); to _myscript.js</p>
+                  <p>CSS</p>
+                <p> 
+                  .caret { 
+                    display: inline-block;
+                    width: 0;
+                    height: 0;
+                    margin-left: 2px;
+                    vertical-align: middle;
+                    border-top:   none;
+                    border-right: none;
+                    order-left:  none; 
+                    content: ""; 
+                    width: 17px; 
+                    height: 8px; 
+                    display: inline-block; 
+                    background: url("../../images/icons/pdp_sprite.png") no-repeat 0px -45px;
+                  }
+                  .bootstrap-select.btn-group .btn .caret{
+                    margin-top: -4px; 
+                  }
+                </p>
               </section>
               <section class="col col-lg-2">
                 <p>In a form</p>
               </section>
 
+            </div><!-- end of the table content row 3 -->
+
+            <div class="content row table-row margin-top-10"><!-- table content row 3 -->
+              <section class="col col-lg-3"> 
+              <div class="form-group has-error">
+                <label for="id_select">your options</label>
+                <select id="id_select" class="selectpicker error" multiple data-live-search="false" >
+                    <option>option 1</option>
+                    <option>option 2</option>
+                    <option>option 3</option>
+                    <option>option 4</option>
+                    <option>option 5</option>
+                    <option>option 6</option>
+                </select>
+                <label class="label-bottom label-selectpicker">required field</lebel>
+                </div>
+              </section>
+
+              <section class="col col-lg-2">
+                <p>Error</p>
+              </section>
+              <section class="col col-lg-5">
+                <p>
+                  .label-bottom.label-selectpicker{
+                    margin-top: -8px; 
+                    color: #cc0000; 
+                  }
+                </p>
+                <p>
+                div.btn-group.bootstrap-select.show-tick.error button.btn.dropdown-toggle.selectpicker.btn-default{
+                  color: #cc0000; 
+                  border-color: #cc0000; 
+                }
+                </p>
+              </section>
+              <section class="col col-lg-2">
+                <p>any error or missing input</p>
+              </section>
+
+            </div><!-- end of the table content row 3 -->
+
+            <div class="content row table-row"><!-- table content row 4 -->
+              <section class="col col-lg-3">
+                <form>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="enter email">
+                  <div class="label-bottom">EXAMPLE: LOREM IPSUM LOREM IPSUM</div>
+                </form>
+                <p class="margin-top-10"></p>
+              </section>
+              <section class="col col-lg-2">
+                <p>Lato label in caps on the inside</p>
+              </section>
+              <section class="col col-lg-5">
+                <p>HTML</p>
+                <p>
+                <?php $new = htmlspecialchars(
+                "<form>
+                  <input type='email' class='form-control' id='exampleInputEmail1' placeholder='enter email'>
+                  <div class='label-bottom'>EXAMPLE: LOREM IPSUM LOREM IPSUM</div>
+                </form>" , ENT_QUOTES);?>
+                </p>
+                <p>Placeholder styling is taken care of by .form-control class which is specified in the very 1st row on this page </p>
+              </section>
+              <section class="col col-lg-2">
+                <p>Semantic</p>
+              </section>
             </div><!-- end of the table content row 4 -->
+
+            <div class="content row table-row"><!-- table content row 5 -->
+              <section class="col col-lg-3">
+                <form>
+                  <input type="email" class="form-control placeholder-lowercase" id="exampleInputEmail1" placeholder="enter email">
+                </form>
+                <p class="margin-top-10"></p>
+              </section>
+              <section class="col col-lg-2">
+                <p>Lato label in lower case italic on the inside</p>
+              </section>
+              <section class="col col-lg-5">
+                <p>HTML</p>
+                <p>
+                &ltform&gt
+                  &ltinput type='email' class='form-control placeholder-lowercase' id='exampleInputEmail1' placeholder='enter email'&gt
+                &lt/form&gt&lt/code&gt
+                </p>
+                <p>CSS</p>
+                <p>.form-control.placeholder-lowercase {
+                  text-transform: lowercase; 
+                  font-style: italic; 
+                  padding: 15px 2% 2% 2%; 
+                }</p>
+              </section>
+              <section class="col col-lg-2">
+                <p>Semantic</p>
+              </section>
+            </div><!-- end of the table content row 5 -->
 
           </section><!-- end of the ENTIRE table 12 columns -->
         </div><!-- end of the entire table row-->

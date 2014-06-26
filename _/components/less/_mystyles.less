@@ -54,6 +54,7 @@ ul, menu, dir {
 @nav-tabs-active-link-hover-color:          @gray;
 @nav-tabs-active-link-hover-border-color:   #ddd;
 
+
 // TYPOGRAPHY //
 
 body{
@@ -140,6 +141,9 @@ h5{
 	letter-spacing: 0.05em;
 	font-size: 1.2em;
 	line-height: 17px; font-weight: 400; font-style: italic; color: #999999;
+}
+.strong{
+	font-weight: 700; 
 }
 .lower-case{
 	text-transform: lowercase;
@@ -851,6 +855,16 @@ input, textarea {
 	line-height: 1em; 
 	padding: 0 2% 1px 2%;
 }
+input.search.form-control{
+	-webkit-appearance: none;
+	border-radius: 0;
+	outline: none;
+	vertical-align: middle;
+	text-transform: none; 
+	font-size: 1.2em; 
+	line-height: 1em; 
+	padding: 0 2% 1px 2%;
+}
 label{
 	font-size: 1em;
 	color: #545454;
@@ -909,7 +923,8 @@ select{
 	height: 30px;
 	padding: 0 2% 1px;
 	font-size: 12px;
-	line-height: 12px;
+	line-height: 30px;
+	letter-spacing: 1px; 
 	color: #545454;
 	font-weight: 400; 
 	text-transform: uppercase; 
@@ -929,6 +944,11 @@ select{
 	box-shadow:none;
 	border-color:#ccc;
 }
+.form-control.placeholder-lowercase{
+	text-transform: lowercase; 
+	font-style: italic; 
+	padding: 15px 2% 2% 2%; 
+}
 button.btn.dropdown-toggle.selectpicker.btn-default{
 	width: 250px; 
 	height: 30px; 
@@ -946,13 +966,6 @@ button.btn.dropdown-toggle.selectpicker.btn-default{
 	box-shadow: none;
 	-webkit-border-radius: 0px;
 }
-/*
-.bootstrap-select .btn:focus{
-	outline-style:none;
-	box-shadow:none;
-	border-color:#ccc;
-}*/
-
 .bootstrap-select .btn:focus {
     outline-style: none !important;
     box-shadow:none;
@@ -969,6 +982,99 @@ button.btn.dropdown-toggle.selectpicker.btn-default{
 ul.dropdown-menu{
 	position: absolute;
 }	
+.input-group-sm>.form-control, .input-group-sm>.input-group-addon, .input-group-sm>.input-group-btn>.btn{
+	height: 30px;
+	padding: 0;
+	font-size: 12px;
+	line-height: 30px;
+	border-radius: 0;
+}
+.input-group .form-control{
+	width: 230px; 
+}
+.input-group .search{
+	border-right: none; 
+}
+.input-group-btn{
+	display: block; 
+}
+.btn.btn-default.search-field{
+	width: 20px; 
+	border-left-color: transparent;
+	padding-right: 4px;  
+}
+.btn.btn-default.search-field:hover,.btn.btn-default.search-field:focus{
+	background-color: transparent; 
+	border-color: #cccccc; 
+	border-left-color: transparent;
+	outline: none; 
+}
+  &:active,
+  &.active {
+    outline: 0;
+    background-image: none;
+    //.box-shadow(inset 0 3px 5px rgba(0,0,0,.125));
+  }
+.label-bottom.label-selectpicker{
+	margin-top: -8px; 
+	color: #cc0000; 
+}
+div.btn-group.bootstrap-select.show-tick.error button.btn.dropdown-toggle.selectpicker.btn-default{
+	color: #cc0000; 
+	border-color: #cc0000; 
+}
+.caret{ 
+	display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top:   none;
+    border-right: none;
+    order-left:  none; 
+	content: ""; 
+	width: 17px; 
+	height: 8px; 
+	display: inline-block; 
+	background: url("../../images/icons/pdp_sprite.png") no-repeat 0px -45px;
+}
+.bootstrap-select.btn-group .btn .caret{
+	margin-top: -4px; 
+}
+
+// CHECKBOXES
+
+input[type=radio], input[type=checkbox]{
+	-webkit-appearance: none;
+	border-radius: 0;
+	outline: 0;
+	margin: 0; 
+	margin-right: 5px;
+}
+input[type="checkbox"].checkbox {
+	min-height: 14px; 
+    display: inline-block;
+    width: 14px; 
+    height: 14px;
+    background: url("../../images/icons/pdp_sprite.png") no-repeat 0px -259px;
+}
+input[type="checkbox"].checkbox:checked {
+    background: url("../../images/icons/pdp_sprite.png") no-repeat 0px -241px;
+    outline: none; 
+    border: none; 
+}
+input[type="checkbox"].checkbox + label {
+    display: inline;
+    position: relative; 
+    padding-left: 0; 
+	margin-left: 0; 
+	font-weight: 700; 
+	vertical-align: middle; 
+}
+input[type="checkbox"].checkbox:focus{
+	outline: none;
+}
+
 // CAROUSEL //
 
 @carousel-text-shadow:                        0 1px 2px rgba(0,0,0,.6);
@@ -1107,23 +1213,15 @@ button.btn.dropdown-toggle.selectpicker.btn-default{
 .btn-default span.glyphicon.glyphicon-search{
 	color: #999999; 
 }
-.input-group-sm>.form-control, .input-group-sm>.input-group-addon, .input-group-sm>.input-group-btn>.btn{
-	height: 30px;
-	padding: 0;
-	font-size: 12px;
-	line-height: 30px;
-	border-radius: 0;
-}
-.input-group .form-control{
-	width: 200px; 
-}
-.input-group-addon, .input-group-btn{
-	width: 50px; 
-}
+
+
  // MARGINS //
 section.col.col-lg-5 p{
 	margin-bottom: 5px; 
 }
-.margin-top-10{
+p.margin-top-10{
 	margin-top: 10px; 
+}
+p.margin-bottom-10{
+	margin-bottom:10px; 
 }
