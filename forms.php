@@ -102,7 +102,7 @@
                   outline: none;
                   vertical-align: middle;
                   width: 250px; 
-                  height: 30px;
+                  height: 31px;
                   border:1px solid #cccccc;
                   font-size: 1.2em; 
                   line-height: 1em; 
@@ -111,10 +111,10 @@
                 <p>.form-control {
                   display: block;
                   width: 250px;
-                  height: 30px;
+                  height: 31px;
                   padding: 0 2% 1px;
                   font-size: 12px;
-                  line-height: 30px;
+                  line-height: 31px;
                   letter-spacing: 1px; 
                   color: #545454;
                   font-weight: 400; 
@@ -220,16 +220,16 @@
                 </p>
                 <p>
                   .input-group-sm>.form-control, .input-group-sm>.input-group-addon, .input-group-sm>.input-group-btn>.btn {
-                    height: 30px;
+                    height: 31px;
                     padding: 0;
                     font-size: 12px;
-                    line-height: 30px;
+                    line-height: 31px;
                     border-radius: 0;
                   }
                 </p>
                 <p>
                   .input-group .form-control {
-                    width: 230px; 
+                    width: 231px; 
                   }
                 </p>
                 <p>
@@ -375,7 +375,7 @@
             <div class="content row table-row"><!-- table content row 4 -->
               <section class="col col-lg-3">
                 <form>
-                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="enter email">
+                  <input type="email" class="form-control placeholder-uppercase" id="exampleInputEmail1" placeholder="enter email">
                   <div class="label-bottom">EXAMPLE: LOREM IPSUM LOREM IPSUM</div>
                 </form>
                 <p class="margin-top-10"></p>

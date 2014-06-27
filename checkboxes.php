@@ -104,6 +104,74 @@
               </section>
             </div><!-- end of the table content row 1 -->
 
+            <div class="content row table-row"><!-- table content row 2 -->
+              <section class="col col-lg-2">
+                <form role="form">
+                  <div class="form-group">
+                    <input type="checkbox" class="checkbox checkbox-list" id="item1"> 
+                    <label for="item1">Item 1</label>
+                  </div>
+                  <div class="form-group">
+                    <input type="checkbox" class="checkbox checkbox-list" id-"item2"> 
+                    <label for="item2">Item 2</label>
+                  </div>
+                  <div class="form-group">
+                    <input type="checkbox" class="checkbox checkbox-list" id="item3">
+                    <label for="item3">Item 3</label>
+                  </div>
+                  <button type="submit" class='primaryButton button-narrow'> <span>Submit</span> </button>
+                </form>
+              </section>
+              <section class="col col-lg-2">
+                <p>Checklist</p>
+              </section>
+              <section class="col col-lg-5">
+                <p class="strong">HTML</p>
+                <p>
+                  <?php
+                  $new = htmlspecialchars(
+                  "<form role='form'>
+                  <div class='form-group'>
+                    <input type='checkbox' class='checkbox checkbox-list' id='item1'> 
+                    <label for='item1'>Item 1</label>
+                  </div>
+                  <div class='form-group'>
+                    <input type='checkbox' class='checkbox checkbox-list' id='item2'> 
+                    <label for='item2'>Item 2</label>
+                  </div>
+                  <div class='form-group'>
+                    <input type='checkbox' class='checkbox checkbox-list' id='item3'>
+                    <label for='item3'>Item 3</label>
+                  </div>
+                  <button type='submit' class='primaryButton button-narrow'> <span>Submit</span> </button>
+                </form>", ENT_QUOTES);
+                  echo $new; 
+                  ?>
+                </p>
+                <p class="strong">CSS</p>
+                <p>input[type="checkbox"].checkbox.checkbox-list:focus {
+                  outline: none;
+                }</p>
+                <p>input[type="checkbox"].checkbox.checkbox-list:focus {
+                  outline: none;
+                }</p>
+                <p>
+                <p> input[type="checkbox"].checkbox.checkbox-list {
+                    outline: none; 
+                      border: none; 
+                    background: url("../../images/icons/pdp_sprite.png") no-repeat 0px -223px;
+                  }</p>
+                <p>  input[type="checkbox"].checkbox.checkbox-list:checked {
+                    background: url("../../images/icons/pdp_sprite.png") no-repeat 0px -204px;
+                  }
+                </p>
+              </section>
+              <section class="col col-lg-3">
+                <p>When multiple selections are allowed</p>
+              </section>
+            </div><!-- end of the table content row 2 -->
+
+
           </section><!-- end of the ENTIRE table 12 columns -->
         </div><!-- end of the entire table row-->
 

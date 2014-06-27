@@ -213,8 +213,8 @@
               <section class="col col-lg-5">
                 <p><?php
                   $new = htmlspecialchars("<a href='#'>
-                  <button class='secondaryButton button-narrow'>
-                    <span>Cancel</span>
+                  <button class='primaryButton button-narrow'>
+                    <span>Next</span>
                   </button>
                 </a>", ENT_QUOTES);
                   echo $new; 

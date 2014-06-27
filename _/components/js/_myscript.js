@@ -62,10 +62,20 @@ $(function(){
 	  } 
 	); 
 
-	// <select> box in a form customization
-
+	$(".form-group.has-error").find("button.btn.dropdown-toggle.selectpicker.btn-default").addClass("border-error");
+	// accordion icons
+	$('.collapse.in').parent().find('.plus').removeClass("plus").addClass("minus");
+	$('.collapse').on('shown.bs.collapse', function(){
+	$(this).parent().find(".plus").removeClass("plus").addClass("minus");
+	}).on('hidden.bs.collapse', function(){
+	$(this).parent().find(".minus").removeClass("minus").addClass("plus");
+	});
+		
+	$('input[type="email"]').focus( function(){
+	  $(this).attr("data-placeholder",$(this).attr('placeholder')).removeAttr("placeholder");
+	});
+	$('input[type="email"]').blur( function(){
+	  $(this).attr("placeholder",$(this).attr('data-placeholder'));
+	});   
 	$('.selectpicker').selectpicker();
-
-
-
 }); 
